@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+
+.home-js{
+    align-items: center;
+    text-align:center;
+    position: relative;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color: aliceblue;
+}
+
+.inicio-home{
+    background: linear-gradient(to bottom, rgb(240, 248, 255), #2a93fd7e, rgb(240, 248, 255)), url("../imagenes/fondobestseller.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-lista-de-criptos{
+    margin-right: 1100px;
+    padding-bottom: 80px;
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.lista-de-criptos{
+    background-color: aliceblue;
+    padding-top: 125px;
+    padding-bottom: 125px;
+    font-size: 21px;
+    font-family: "poppins";
+}
+
+.imagen-cripto-lista{
+    margin-right: 13px;
+}
+
+.dai{
+    margin-left: -20px;
+}
+.usdt{
+    margin-left: -7px;
+}

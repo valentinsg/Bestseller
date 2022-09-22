@@ -1,0 +1,31 @@
+.card{
+    justify-content: center;
+    font-family: 'poppins';
+    user-select: none;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 2.5px 0.2px black;
+}
+
+.container{
+    justify-content: center;
+    user-select: text;
+}
+
+.container a{
+    text-decoration: none;
+    font-size: 45px;
+    font-style: oblique;
+    text-shadow: 2px 5.4px 9px #06192e5d;
+    color: aliceblue;
+    font-weight: 1000;
+}
+.container a:hover{
+    cursor: pointer;
+    color: #e4e4e4b7;
+}
+
+.row-card{
+    gap: 10px;
+}
